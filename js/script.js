@@ -2,6 +2,7 @@
 
 var display = document.getElementById("display");
 
+<<<<<<< HEAD
 function oneToTen(){
 	display.innerHTML = "";
   	for(var i = 1; i<= 10; i++){
@@ -70,4 +71,8 @@ function tableSquare(n){
 			display.innerHTML += "|"+i*j+"|";
 		}
 	}
+=======
+function yourFunctionName (){
+  display.innerHTML = "hello";
+>>>>>>> b741e3801a753c87a0e0f0d2f43d495f4d17fb33
 }
